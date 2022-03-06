@@ -1,0 +1,188 @@
+.gallery-div-head {
+  width: 100%;
+  text-align: center;
+}
+.gallery-head {
+  font-weight: normal;
+  font-size: 75px;
+  position: relative;
+  margin: 40px 0;
+}
+
+.gallery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1em;
+  text-align: center;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.gallery-box {
+  flex: 20%;
+  margin: 1em;
+  display: none;
+}
+
+.gallery-box img {
+  width: 300px;
+  height: 300px;
+}
+
+.selectors-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1em;
+  text-align: center;
+
+  background-color: rgb(243, 243, 243);
+  width: 90%;
+  margin: 0 auto 20px auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgrey;
+}
+
+.selectors-div label {
+  flex: 20%;
+  display: inline-block;
+  height: 100%;
+  margin: 0 20px;
+  line-height: 60px;
+  font-size: 18px;
+  color: gray;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.hide-input {
+  display: none;
+}
+
+.all-box {
+  display: block;
+}
+
+/************* Gallery filters **************/
+
+#birds-sel:checked ~ * .all-box {
+  display: none;
+}
+
+#birds-sel:checked ~ * .birds {
+  display: block;
+}
+
+#all-sel:checked ~ * .all-box {
+  display: block;
+}
+
+#fish-sel:checked ~ * .all-box {
+  display: none;
+}
+
+#fish-sel:checked ~ * .fish {
+  display: block;
+}
+#swim-sel:checked ~ * .all-box {
+  display: none;
+}
+
+#swim-sel:checked ~ * .swim {
+  display: block;
+}
+#rest-sel:checked ~ * .all-box {
+  display: none;
+}
+
+#rest-sel:checked ~ * .rest {
+  display: block;
+}
+#game-sel:checked ~ * .all-box {
+  display: none;
+}
+
+#game-sel:checked ~ * .game {
+  display: block;
+}
+
+/************* Gallery filters  end **************/
+
+
+
+/* contact sections */
+.contactus {
+  text-align: center;
+  width: 100%;
+}
+.contactbox {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 70px 30px;
+  text-align: center;
+}
+
+.contactbox form {
+  display: block;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contactbox h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.contactbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.contactbox input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 8px;
+  background-color: white;
+  opacity: .8;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+.contactbox textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 8px;
+  background-color: white;
+  opacity: .8;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+.contactbox input[type='text'].input[type='password'].input[type='email'] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+}
+.contactbox input[type='submit'] {
+  border: none;
+  outline: none;
+  background: #fb2525;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

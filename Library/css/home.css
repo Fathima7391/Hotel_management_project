@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Images/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.gallery {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery input {
+  display: none;
+}
+
+.gallery h1 {
+  font-weight: normal;
+  font-size: 35px;
+  position: relative;
+  margin: 40px 0;
+}
+
+.top {
+  background-color: rgb(243, 243, 243);
+  width: 90%;
+  margin: 0 auto 20px auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgrey;
+}
+
+.top h3 {
+  height: 100%;
+  background-color: rgb(221, 221, 221);
+  line-height: 60px;
+  padding: 0 50px;
+  color: white;
+}
+
+.top label {
+  display: inline-block;
+  height: 100%;
+  margin: 0 20px;
+  line-height: 60px;
+  font-size: 18px;
+  color: gray;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.top label:hover {
+  color: black;
+}
+
+.content5 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Images/services.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  position: absolute;
+}
+
+.content5 h3 {
+  font-size: 110px;
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.content5 p {
+  margin: 20px auto;
+  font-size: medium;
+  font-weight: 200;
+  line-height: 25px;
+  color: #fff;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 110px;
+  margin-top: 80px;
+}
+
+.content p {
+  margin: 20px auto;
+  font-weight: 200;
+  line-height: 25px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+.container_book {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+.container_book h1 {
+  color:white;
+}
+.container_book h2 {
+  color: coral;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 2em;
+}
+.container_book p {
+  color:floralwhite;
+  text-align: left;
+  font-weight: 500;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3em;
+}
+
+.box4 {
+  background-image: url(../Images/room1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+.box5 {
+  background-image: url(../Images/conf1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+
+.container h1 {
+  color: darkgray;
+}
+.container h2 {
+  color: darkgray;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 2em;
+}
+
+.box {
+  margin: 20px;
+  height: 500px;
+  text-align: justify;
+  padding: 20px;
+  color: snow;
+  line-height: 1.6;
+  width: 340px;
+  box-shadow: o 5px 10px black;
+}
+
+.box1 {
+  background-image: url(../Images/services.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+
+.btn1 button {
+  width: 200px;
+  height: 30px;
+  border-radius: 25px;
+  background: transparent;
+  color: snow;
+  font-size: 18px;
+  border: 1px solid coral;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+
+.btn1 button:hover {
+  background: crimson;
+  transform: scale(1.1);
+}
+
+.box2 {
+  background-image: url(../Images/room.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+
+.btn2 button {
+  width: 200px;
+  height: 30px;
+  border-radius: 25px;
+  background: transparent;
+  color: snow;
+  font-size: 18px;
+  border: 1px solid coral;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+
+.btn2 button:hover {
+  background: crimson;
+  transform: scale(1.1);
+}
+
+.box3 {
+  background-image: url(../Images/buffet.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+
+.btn3 button {
+  width: 200px;
+  height: 30px;
+  border-radius: 25px;
+  background: transparent;
+  color: snow;
+  font-size: 18px;
+  border: 1px solid coral;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+
+.btn3 button:hover {
+  background: crimson;
+  transform: scale(1.1);
+}
+
+.container2 {
+  background-image: url(../Images/customer.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  height: 100%;
+  width: 100%;
+}
+
+.content1 h1 {
+  text-align: center;
+  margin-top: 0em;
+  font-size: 50px;
+  color: snow;
+  /*padding: 100px;*/
+}
+
+.content1 p {
+  margin-left: 1em;
+  margin-top: 4em;
+  font-size: 20px;
+  
+  /*padding: 50px 100px;*/
+  letter-spacing: 2px;
+  text-align: left;
+  color: seashell;
+}
+.content1 iframe{
+  bottom: 1px;
+  height: 40%;
+  width: 25%;
+  margin-bottom: 1em;
+}
+iframe{
+  margin-inline-end: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid;
+  width: 100%;
+  height: 80vh;
+  background-image: url(../Images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  height: 80vh;
+}
+
+.abc {
+  color: aliceblue;
+  font-size: 18px;
+  margin-top: 150px;
+  line-height: 2;
+}
+
+.abc h2 {
+  font-size: 25px;
+  color: deepskyblue;
+}
+
+.abc li a {
+  color: snow;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.abc li a:hover {
+  color: coral;
+}
+
+.content6 img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 23px;
+  padding: 10px;
+  cursor: pointer;
+}

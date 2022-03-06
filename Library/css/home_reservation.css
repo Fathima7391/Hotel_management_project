@@ -1,0 +1,144 @@
+.row {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../Images/3.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.row input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 2px;
+  text-align: centers;
+}
+
+.row h1 {
+  color: snow;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 2em;
+}
+
+#form {
+  display: flex;
+  background-color: #000;
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+  opacity: 0.7;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#first {
+  margin-top: 0px;
+  flex: 45%;
+}
+#second {
+  flex: 45%;
+}
+
+.gp1 {
+  margin: 10px;
+  margin-left: 8px;
+  padding: 18px;
+}
+
+.gp1 input {
+  padding: 7px;
+  width: 80%;
+}
+
+#first .gp1  select{
+  width: 80%;
+}
+.gp1  select {
+    padding: 7px;
+    width: 100%;
+  }
+  .gp2{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .gp2 label{
+    flex: 30%;
+    text-align: left;
+    align-self: center;
+ 
+  }
+  #form2 {
+    display: flex;
+    background-color: #000;
+    width: 80%;
+    margin: auto;
+    margin-top: 6em;
+    opacity: 0.7;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .e1 {
+    margin: 30px;
+    margin-left: 16px;
+    padding: 30px;
+  }
+  
+  .e1 input {
+    padding: 7px;
+    width: 100%;
+  }
+  .e1  select {
+    padding: 7px;
+    width: 100%;
+  }
+  .e2{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .e2 label{
+    flex: 30%;
+    text-align: left;
+    align-self: center;
+ 
+  }
+
+  .e2 input{
+    flex: 70%;
+    width: 50%;
+  }
+  .event {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../Images/3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }
+  .event input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 2px;
+    text-align: centers;
+  }
+  
+  .event h1 {
+    color: snow;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2em;
+  }
+  #first_S {
+    margin-top: 0px;
+    flex: 45%;
+  }
